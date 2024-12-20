@@ -1,0 +1,35 @@
+/* Dark theme for ScrollPane */
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar {
+    -fx-background-color: #2D2D2D; 
+    -fx-border-color: transparent; 
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #444444; 
+    -fx-background-insets: 1;
+    -fx-border-radius: 5; 
+    -fx-padding: 5;
+}
+
+.scroll-bar .track {
+    -fx-background-color: #383838; 
+    -fx-background-insets: 1;
+    -fx-border-radius: 5; 
+}
+
+
+.scroll-bar:hover .thumb {
+    -fx-background-color: #888888; 
+}
+
+.scroll-bar:pressed .thumb {
+    -fx-background-color: #333333; 
+}
+
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #444444;
+}
