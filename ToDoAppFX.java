@@ -169,7 +169,7 @@ public class ToDoAppFX extends Application {
 
                 // Action for Remove Task
                 deleteButton.setOnAction(ev -> deleteTask(taskList, taskLabelContainer));
-
+                
                 // Action for Duplicate Task
                 starButton.setOnAction(ev -> markTaskAsImportant(taskLabel.getText(),starButton));
 
